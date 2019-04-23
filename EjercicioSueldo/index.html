@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>EjercicioSueldo</title>
+</head>
+
+<body>
+
+    <script>
+
+        var sueldoInicial, categoria, nuevoSueldo;
+        sueldoInicial=parseInt(prompt("Ingrese sueldo inicial: "));
+        categoria=parseInt(prompt("Ingrese su categoria: "));
+        if (categoria<=1, categoria<=2, categoria<=3, categoria<=4){
+            switch (categoria){
+		case 1:
+			nuevoSueldo = sueldoInicial+(sueldoInicial * 15/100);
+			break;
+		case 2:
+			nuevoSueldo = sueldoInicial+(sueldoInicial * 10/100);
+			break;
+		case 3:
+			nuevoSueldo = sueldoInicial+(sueldoInicial * 8/100);
+			break;
+		case 4:
+			nuevoSueldo = sueldoInicial+(sueldoInicial * 7/100);
+			break;
+		default:
+			alert("Su categoria es incorrecta");
+	}
+	 } else {
+        }
+
+        alert("Su nuevo sueldo es: "+nuevoSueldo);
+        alert("Su sueldo anterior: "+sueldoInicial);
+        
+        
+    </script>
+        
+</body>
+</html>
